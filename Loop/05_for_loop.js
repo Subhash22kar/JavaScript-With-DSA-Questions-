@@ -13,16 +13,26 @@ if (pr === null) {
    else
      if (n > 0) {
 
-        let primeHai = true;
-        for(let i =2; i<=Math.floor(n/2); i++){
-            if(n%i === 0){
-                primeHai = false;
-                break;
-            }
-        }
+      console.log(isPrime(n));
    
-    console.log(primeHai ? "Prime Number ": "Not Prime");
+    // console.log(primeHai ? "Prime Number ": "Not Prime");
   } else {
     console.log(" Should be +ve and more than 0");  
   }
+}
+
+
+function isPrime(n){//12
+
+  if(n<=1) return false;
+  if(n==2) return true;
+  if(n%2==0) return false;
+  for( let i = 3; i<=Math.floor(Math.sqrt(n)); i=+2){
+
+    if(n%1==0) return false
+
+  }
+
+  return true
+
 }
