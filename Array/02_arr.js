@@ -1,5 +1,5 @@
 
-// left rotation by element
+// left rotation by 1 element
 let  arr = [1,2,3,4,5,]
 
 let copy  = arr[0];
