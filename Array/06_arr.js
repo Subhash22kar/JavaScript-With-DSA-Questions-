@@ -1,4 +1,4 @@
-// Left and right rotation by k element
+// Left  rotation by k element
 
 let arr = [1, 2, 3, 4, 5];
 
