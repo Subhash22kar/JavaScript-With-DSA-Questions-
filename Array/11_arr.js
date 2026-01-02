@@ -1,4 +1,4 @@
-
+// merge two sorted array
 let arr1 = [2, 5, 6]
 let arr2 = [1, 3, 4, 8]
 let merge = new Array(arr1.length + arr2.length)
