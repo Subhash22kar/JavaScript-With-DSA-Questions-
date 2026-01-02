@@ -1,6 +1,6 @@
 
 
-// k element by without white space or time complexity n
+// Left rotation by k element without extar space or time complexity n
 
 let arr = [1,2,3,4,5]
 let k = Number(prompt("Enter a value"))
