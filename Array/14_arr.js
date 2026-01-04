@@ -1,6 +1,6 @@
 
 
-// Maximum Subarry / kadane's algorithm // Leetcode Question
+// Maximum Subarray / kadane's algorithm // Leetcode Question
 
 /**
  * @param {number[]} nums
