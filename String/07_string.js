@@ -1,4 +1,4 @@
-//  frequency of each character
+//  Question 07 frequency of each character
 
 // hello
 // h = 1
