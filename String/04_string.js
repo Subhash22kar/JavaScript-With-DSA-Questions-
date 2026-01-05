@@ -1,5 +1,5 @@
 
-// Question 4  check if string is pallindrome or not
+// Question 4  check if string is pallindrome or not with extra space
 
 // madam , malayalam, naman , abba  start
 
