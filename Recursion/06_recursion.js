@@ -1,4 +1,4 @@
-// fibonacci Serise
+// fibonacci Serise in Recursion
 
 // let n = 10;
 // let first = 0, second = 1;
