@@ -1,5 +1,5 @@
 
-let arr = [5, 4, 1, 8, 12, 17];
+let arr = [25,5,10,1,4,0];
 
 let n = arr.length;
 
