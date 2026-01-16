@@ -1,29 +1,37 @@
 // Search in a Rotated and sorted array 
 
-let arr = [4,5,1,2,3]
+let A = [4,5,1,2,3]
 
-let s = 0, e = arr.length-1;
-let target = 5;
+ let target = 5;
 
-while(s<=e){
+   let start = 0 , end = A.length-1;
 
-    let mid = (s+e)/2;
+    while(start <= end){
+      let  mid = Math.floor((start + end)/2);
+      if(A[mid]== target){
+       console.log(mid);
+      }
 
-    if(arr[mid] == target){
-        console.log(mid);
-        
-    } if(arr[s] <= arr[mid]){
-        if(arr[s]<= target && target <= arr[mid])
-            e = mid - 1;
-        else
-            s = mid + 1;
-    }
-        else if(arr[mid] <= target && target <= arr[e]){
-            s = mid +1;
+      if(A[start] <= A[mid]){ // left sorted
+      if(A[start] <= target && target <= A[mid]){
+        end = mid - 1;
+        console.log(target);
+      }else{
+        start = mid +1
+        console.log(start);
+      }
+
+      } else{ // right sorted
+        if(A[mid] <= target && target <= A[end]){
+            start = mid + 1;
+            console.log(start);
+        } else{
+            end = mid - 1
+            console.log(end);
         }
 
-        else{
-            e = mid -1;
-        }
-    }
+      }
 
+      return -1
+    }
+console.log("subhash");
